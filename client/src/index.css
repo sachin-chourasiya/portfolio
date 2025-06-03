@@ -177,6 +177,7 @@
   color: white;
   position: relative;
   overflow: hidden;
+  margin-top: 75px !important;
 }
 
 .hero-section::before {
