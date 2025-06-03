@@ -1,9 +1,9 @@
 export default function HeroSection() {
   const handleDownloadResume = () => {
-    // Create a download link for a sample resume
+    // Create a download link for the actual resume
     const link = document.createElement('a');
-    link.href = 'data:text/plain;charset=utf-8,Chaitanya - Full Stack Developer Resume\n\nThis would be a real resume file in production.';
-    link.download = 'Chaitanya_Resume.txt';
+    link.href = '/attached_assets/UpdatedSachinChourasiyaResume.pdf';
+    link.download = 'Sachin_Chourasiya_Resume.pdf';
     link.click();
   };
 
@@ -24,11 +24,11 @@ export default function HeroSection() {
         <div className="row align-items-center">
           <div className="col-lg-8">
             <div className="hero-content">
-              <h1 className="hero-title">Hi, I'm Chaitanya</h1>
-              <p className="hero-subtitle">Full Stack Developer & Software Engineer</p>
+              <h1 className="hero-title">Hi, I'm Sachin Chourasiya</h1>
+              <p className="hero-subtitle">Backend Developer & Software Engineer</p>
               <p className="hero-description">
-                Passionate about creating innovative web solutions and building scalable applications. 
-                With expertise in modern technologies and a keen eye for user experience.
+                Experienced Backend Developer with proven expertise in developing and deploying secure, scalable web applications. 
+                Specialized in Node.js, Next.js, MongoDB, and AWS with a track record of reducing transaction times by 20% and improving system efficiencies.
               </p>
               <div className="d-flex gap-3 flex-wrap">
                 <button 
@@ -49,8 +49,8 @@ export default function HeroSection() {
           </div>
           <div className="col-lg-4 text-center">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400" 
-              alt="Chaitanya - Professional Photo" 
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400" 
+              alt="Sachin Chourasiya - Professional Photo" 
               className="img-fluid rounded-circle shadow-lg" 
               style={{ width: '300px', height: '300px', objectFit: 'cover' }}
             />

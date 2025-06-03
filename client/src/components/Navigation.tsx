@@ -34,7 +34,7 @@ export default function Navigation() {
     >
       <div className="container">
         <a className="navbar-brand" href="#home" onClick={(e) => handleNavClick(e, "#home")}>
-          Chaitanya
+          Sachin Chourasiya
         </a>
         <button 
           className="navbar-toggler" 

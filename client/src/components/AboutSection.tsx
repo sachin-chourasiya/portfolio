@@ -9,22 +9,20 @@ export default function AboutSection() {
               <div className="card-body p-4">
                 <h3 className="card-title text-primary mb-3">Professional Summary</h3>
                 <p className="card-text">
-                  I'm a passionate Full Stack Developer with 3+ years of experience in building modern web applications. 
-                  I specialize in React.js, Node.js, and cloud technologies. My goal is to create efficient, 
-                  scalable solutions that provide exceptional user experiences.
+                  Experienced Backend Developer with a proven track record in developing and deploying secure, scalable web applications.
+                  Demonstrated expertise in Node.js, Next.js, MongoDB, and integrating third-party services such as Stripe and AWS.
                 </p>
                 <p className="card-text">
-                  I love learning new technologies and staying up-to-date with industry trends. 
-                  When I'm not coding, you can find me contributing to open source projects or 
-                  exploring the latest in web development.
+                  Notable achievements include reducing transaction flow times by 20%, improving billing accuracy by 40%, and enhancing user
+                  engagement by 35%. Adept at designing RESTful APIs, ensuring data security, and optimising database performance.
                 </p>
                 <div className="mt-4">
                   <h5 className="text-primary">Key Strengths:</h5>
                   <ul className="list-unstyled">
-                    <li><i className="fas fa-check text-success me-2"></i>Full Stack Development</li>
-                    <li><i className="fas fa-check text-success me-2"></i>Problem Solving</li>
-                    <li><i className="fas fa-check text-success me-2"></i>Team Collaboration</li>
-                    <li><i className="fas fa-check text-success me-2"></i>Continuous Learning</li>
+                    <li><i className="fas fa-check text-success me-2"></i>Backend Development</li>
+                    <li><i className="fas fa-check text-success me-2"></i>RESTful API Design</li>
+                    <li><i className="fas fa-check text-success me-2"></i>Third-party Integration</li>
+                    <li><i className="fas fa-check text-success me-2"></i>System Architecture</li>
                   </ul>
                 </div>
               </div>
@@ -35,9 +33,9 @@ export default function AboutSection() {
               <div className="col-6">
                 <div className="card card-custom text-center">
                   <div className="card-body">
-                    <i className="fas fa-code text-primary fa-2x mb-3"></i>
-                    <h4>50+</h4>
-                    <p className="text-muted">Projects Completed</p>
+                    <i className="fas fa-server text-primary fa-2x mb-3"></i>
+                    <h4>100+</h4>
+                    <p className="text-muted">APIs Developed</p>
                   </div>
                 </div>
               </div>
@@ -45,8 +43,8 @@ export default function AboutSection() {
                 <div className="card card-custom text-center">
                   <div className="card-body">
                     <i className="fas fa-users text-primary fa-2x mb-3"></i>
-                    <h4>25+</h4>
-                    <p className="text-muted">Happy Clients</p>
+                    <h4>100+</h4>
+                    <p className="text-muted">Active Users</p>
                   </div>
                 </div>
               </div>
@@ -63,8 +61,8 @@ export default function AboutSection() {
                 <div className="card card-custom text-center">
                   <div className="card-body">
                     <i className="fas fa-trophy text-primary fa-2x mb-3"></i>
-                    <h4>10+</h4>
-                    <p className="text-muted">Awards Won</p>
+                    <h4>2</h4>
+                    <p className="text-muted">Employee of Month</p>
                   </div>
                 </div>
               </div>
