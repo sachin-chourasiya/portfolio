@@ -16,7 +16,7 @@ export default function ContactSection() {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
 
   const contactMutation = useMutation({
@@ -39,9 +39,11 @@ export default function ContactSection() {
     },
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
-    setForm(prev => ({ ...prev, [name]: value }));
+    setForm((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -51,13 +53,14 @@ export default function ContactSection() {
 
   const handleSocialClick = (platform: string) => {
     const urls = {
-      github: "https://github.com/sachinchourasiya",
-      linkedin: "https://linkedin.com/in/sachinchourasiya",
-      twitter: "https://twitter.com/sachinchourasiya",
-      instagram: "https://instagram.com/sachinchourasiya"
+      github: "https://github.com/sachin-chourasiya",
+      linkedin: "http://linkedin.com/in/sachin-chourasiya-b66465193",
+      twitter: "https://twitter.com/SachinC96892260",
+      instagram:
+        "https://www.instagram.com/sach_in_84ya?igsh=bGd5ZDRvMHUyYnll&utm_source=qr",
     };
-    
-    window.open(urls[platform as keyof typeof urls], '_blank');
+
+    window.open(urls[platform as keyof typeof urls], "_blank");
   };
 
   return (
@@ -87,30 +90,42 @@ export default function ContactSection() {
                       <i className="fas fa-graduation-cap text-primary me-3"></i>
                       <span>BE Computer Science - Sam College Bhopal</span>
                     </div>
-                    
+
                     <h5 className="text-primary mb-3">Follow Me</h5>
                     <div className="social-links">
-                      <a 
-                        href="#" 
-                        onClick={(e) => { e.preventDefault(); handleSocialClick('github'); }}
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleSocialClick("github");
+                        }}
                       >
                         <i className="fab fa-github"></i>
                       </a>
-                      <a 
-                        href="#" 
-                        onClick={(e) => { e.preventDefault(); handleSocialClick('linkedin'); }}
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleSocialClick("linkedin");
+                        }}
                       >
                         <i className="fab fa-linkedin"></i>
                       </a>
-                      <a 
-                        href="#" 
-                        onClick={(e) => { e.preventDefault(); handleSocialClick('twitter'); }}
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleSocialClick("twitter");
+                        }}
                       >
-                        <i className="fab fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                       </a>
-                      <a 
-                        href="#" 
-                        onClick={(e) => { e.preventDefault(); handleSocialClick('instagram'); }}
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          handleSocialClick("instagram");
+                        }}
                       >
                         <i className="fab fa-instagram"></i>
                       </a>
@@ -120,21 +135,21 @@ export default function ContactSection() {
                     <h4 className="text-primary mb-4">Send Message</h4>
                     <form onSubmit={handleSubmit}>
                       <div className="mb-3">
-                        <input 
-                          type="text" 
-                          className="form-control" 
-                          placeholder="Your Name" 
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Your Name"
                           name="name"
                           value={form.name}
                           onChange={handleInputChange}
-                          required 
+                          required
                         />
                       </div>
                       <div className="mb-3">
-                        <input 
-                          type="email" 
-                          className="form-control" 
-                          placeholder="Your Email" 
+                        <input
+                          type="email"
+                          className="form-control"
+                          placeholder="Your Email"
                           name="email"
                           value={form.email}
                           onChange={handleInputChange}
@@ -142,10 +157,10 @@ export default function ContactSection() {
                         />
                       </div>
                       <div className="mb-3">
-                        <input 
-                          type="text" 
-                          className="form-control" 
-                          placeholder="Subject" 
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Subject"
                           name="subject"
                           value={form.subject}
                           onChange={handleInputChange}
@@ -153,23 +168,25 @@ export default function ContactSection() {
                         />
                       </div>
                       <div className="mb-3">
-                        <textarea 
-                          className="form-control" 
-                          rows={5} 
-                          placeholder="Your Message" 
+                        <textarea
+                          className="form-control"
+                          rows={5}
+                          placeholder="Your Message"
                           name="message"
                           value={form.message}
                           onChange={handleInputChange}
                           required
                         />
                       </div>
-                      <button 
-                        type="submit" 
+                      <button
+                        type="submit"
                         className="btn btn-custom text-white w-100"
                         disabled={contactMutation.isPending}
                       >
                         <i className="fas fa-paper-plane me-2"></i>
-                        {contactMutation.isPending ? 'Sending...' : 'Send Message'}
+                        {contactMutation.isPending
+                          ? "Sending..."
+                          : "Send Message"}
                       </button>
                     </form>
                   </div>

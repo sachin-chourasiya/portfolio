@@ -1,22 +1,44 @@
 export default function SkillsSection() {
   const backendSkills = [
-    "Node.js", "Express.js", "Hapi.js", "Next.js", "TypeScript", 
-    "JavaScript ES6+", "RESTful APIs", "MongoDB", "PostgreSQL", "Flask"
+    "Node.js",
+    "Express.js",
+    "Hapi.js",
+    "TypeScript",
+    "JavaScript ES6+",
+    "RESTful APIs",
+    "MongoDB",
+    "Flask",
   ];
 
   const cloudSkills = [
-    "AWS S3", "AWS SES", "AWS Lambda", "AWS EC2", "AWS IAM", 
-    "Stripe Integration", "HubSpot", "Third-party APIs", "Webhooks"
+    "AWS S3",
+    "AWS SES",
+    "AWS Lambda",
+    "AWS EC2",
+    "AWS IAM",
+    "Stripe Integration",
+    "HubSpot",
+    "Third-party APIs",
+    "Webhooks",
   ];
 
   const toolsSkills = [
-    "Git", "Playwright", "Jest", "Allure", "CI/CD", 
-    "Shell Scripting", "Agile/Scrum", "Version Control", "Testing"
+    "Git",
+    "Playwright",
+    "Jest",
+    "Allure",
+    "Shell Scripting",
+    "Version Control",
+    "Testing",
   ];
 
   const frontendSkills = [
-    "React.js", "HTML5", "CSS3", "Bootstrap", "JavaScript", 
-    "JSP", "Java Servlets", "Responsive Design", "UI/UX"
+    "React.js",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "Responsive Design",
   ];
 
   return (
@@ -76,7 +98,8 @@ export default function SkillsSection() {
             <div className="card card-custom h-100">
               <div className="card-header bg-primary text-white">
                 <h4 className="mb-0">
-                  <i className="fas fa-laptop-code me-2"></i>Frontend Technologies
+                  <i className="fas fa-laptop-code me-2"></i>Frontend
+                  Technologies
                 </h4>
               </div>
               <div className="card-body">
