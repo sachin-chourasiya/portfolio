@@ -24,11 +24,11 @@ After deploying to Netlify:
 1. Go to your Netlify site dashboard
 2. Navigate to "Site settings" > "Environment variables"
 3. Add these variables:
-
+<!-- 
 ```
 EMAIL_USER = sachinchourasiya.c.123@gmail.com
 EMAIL_PASS = [your-16-character-app-password]
-```
+``` -->
 
 **Important:** Use the App Password, NOT your regular Gmail password!
 

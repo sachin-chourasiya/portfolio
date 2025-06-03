@@ -34,10 +34,10 @@ Your contact form now sends email notifications to **sachinchourasiya.c.123@gmai
 
 ### 2. **Configure Netlify Environment Variables**
 In your Netlify dashboard, add:
-```
+<!-- ```
 EMAIL_USER = sachinchourasiya.c.123@gmail.com
 EMAIL_PASS = [your-16-character-app-password]
-```
+``` -->
 
 ### 3. **Test the Contact Form**
 1. Deploy your site to Netlify
