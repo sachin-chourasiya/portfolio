@@ -11,10 +11,6 @@
   # Node.js version
   environment = { NODE_VERSION = "18" }
 
-[build.environment]
-  # Set production environment
-  NODE_ENV = "production"
-
 # Redirect all routes to index.html for SPA routing
 [[redirects]]
   from = "/*"
