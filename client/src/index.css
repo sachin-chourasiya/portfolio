@@ -178,6 +178,7 @@
   position: relative;
   overflow: hidden;
   margin-top: 75px !important;
+  padding-top: 12px;
 }
 
 .hero-section::before {
