@@ -131,7 +131,7 @@ export default function ContactSection() {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  {/* <div className="col-lg-6">
                     <h4 className="text-primary mb-4">Send Message</h4>
                     <form onSubmit={handleSubmit}>
                       <div className="mb-3">
@@ -189,7 +189,7 @@ export default function ContactSection() {
                           : "Send Message"}
                       </button>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

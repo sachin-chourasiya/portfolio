@@ -49,7 +49,6 @@ export default function Navigation(): JSX.Element {
           : "rgba(255, 255, 255, 0.95)",
         backdropFilter: "blur(10px)",
         borderBottom: scrolled ? "1px solid rgba(0,0,0,0.1)" : "none",
-        height: '75px',
       }}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
