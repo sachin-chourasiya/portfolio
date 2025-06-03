@@ -2,7 +2,7 @@ export default function HeroSection() {
   const handleDownloadResume = () => {
     // Create a download link for the actual resume
     const link = document.createElement('a');
-    link.href = '/attached_assets/UpdatedSachinChourasiyaResume.pdf';
+    link.href = '/assets/UpdatedSachinChourasiyaResume.pdf';
     link.download = 'Sachin_Chourasiya_Resume.pdf';
     link.click();
   };

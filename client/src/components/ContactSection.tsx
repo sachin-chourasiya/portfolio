@@ -51,10 +51,10 @@ export default function ContactSection() {
 
   const handleSocialClick = (platform: string) => {
     const urls = {
-      github: "https://github.com/chaitanya31612",
-      linkedin: "https://linkedin.com/in/chaitanya31612",
-      twitter: "https://twitter.com/chaitanya31612",
-      instagram: "https://instagram.com/chaitanya31612"
+      github: "https://github.com/sachinchourasiya",
+      linkedin: "https://linkedin.com/in/sachinchourasiya",
+      twitter: "https://twitter.com/sachinchourasiya",
+      instagram: "https://instagram.com/sachinchourasiya"
     };
     
     window.open(urls[platform as keyof typeof urls], '_blank');
@@ -73,19 +73,19 @@ export default function ContactSection() {
                     <h4 className="text-primary mb-4">Contact Information</h4>
                     <div className="mb-3">
                       <i className="fas fa-envelope text-primary me-3"></i>
-                      <span>chaitanya@example.com</span>
+                      <span>sachinchourasiya.c.123@gmail.com</span>
                     </div>
                     <div className="mb-3">
                       <i className="fas fa-phone text-primary me-3"></i>
-                      <span>+91 9876543210</span>
+                      <span>+91 7047661518</span>
                     </div>
                     <div className="mb-3">
                       <i className="fas fa-map-marker-alt text-primary me-3"></i>
-                      <span>Bangalore, India</span>
+                      <span>Noida, UP, India</span>
                     </div>
                     <div className="mb-4">
-                      <i className="fas fa-globe text-primary me-3"></i>
-                      <span>www.chaitanya-dev.com</span>
+                      <i className="fas fa-graduation-cap text-primary me-3"></i>
+                      <span>BE Computer Science - Sam College Bhopal</span>
                     </div>
                     
                     <h5 className="text-primary mb-3">Follow Me</h5>

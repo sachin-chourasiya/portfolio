@@ -67,6 +67,11 @@ export default function Navigation() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#education" onClick={(e) => handleNavClick(e, "#education")}>
+                Education
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#projects" onClick={(e) => handleNavClick(e, "#projects")}>
                 Projects
               </a>

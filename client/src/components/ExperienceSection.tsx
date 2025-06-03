@@ -1,33 +1,58 @@
 export default function ExperienceSection() {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      duration: "2022 - Present",
+      title: "Backend Developer",
+      company: "Incaendo Technologies Pvt Ltd",
+      duration: "October 2024 - Present",
       achievements: [
-        "Led development of microservices architecture using Node.js and Docker",
-        "Improved application performance by 40% through code optimization",
-        "Mentored junior developers and conducted code reviews"
+        "Integrated comprehensive Stripe payment gateway supporting payments, subscriptions, and invoices for 100+ users",
+        "Developed 15+ secure RESTful APIs resulting in 20% faster transaction flows",
+        "Implemented real-time webhook processing reducing subscription issues by 40%",
+        "Designed project snapshot feature increasing user engagement by 35%"
       ]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      duration: "2020 - 2022",
+      title: "Backend Developer",
+      company: "Incaendo Technologies Pvt Ltd",
+      duration: "February 2024 - July 2024",
       achievements: [
-        "Developed responsive web applications using React.js and Express.js",
-        "Integrated third-party APIs and payment gateways",
-        "Collaborated with cross-functional teams in Agile environment"
+        "Designed and implemented entire backend from scratch with 20+ RESTful APIs",
+        "Integrated HubSpot, AWS S3, AWS SES achieving 99% email delivery success",
+        "Developed secure authentication and role-based authorization system",
+        "Improved database query performance by 30% using MongoDB optimization"
       ]
     },
     {
-      title: "Frontend Developer",
-      company: "StartUp Hub",
-      duration: "2019 - 2020",
+      title: "Backend Developer",
+      company: "Incaendo Technologies Pvt Ltd",
+      duration: "February 2023 - January 2024",
       achievements: [
-        "Built interactive user interfaces using modern JavaScript frameworks",
-        "Optimized website performance and SEO rankings",
-        "Implemented responsive design principles for mobile compatibility"
+        "Created 20+ RESTful APIs for video processing and ad placement workflows",
+        "Integrated AWS S3 and SES achieving 98% delivery success rate",
+        "Collaborated on ML pipeline for automated ad placement in video content",
+        "Improved MongoDB query efficiency by 25% through optimization"
+      ]
+    },
+    {
+      title: "Backend Developer",
+      company: "Incaendo Technologies Pvt Ltd",
+      duration: "November 2022 - October 2024",
+      achievements: [
+        "Developed 25+ RESTful APIs increasing efficiency by 30%",
+        "Integrated OpenAI reducing test creation time by 50%",
+        "Built Flask API on AWS EC2 with automated test execution",
+        "Reduced cloud resource costs by 35% through automation"
+      ]
+    },
+    {
+      title: "Product Development Engineer 1",
+      company: "Phenom People Pvt Ltd",
+      duration: "January 2022 - October 2022",
+      achievements: [
+        "Developed hotel reservation system using Java and OOP principles",
+        "Implemented user registration, booking management, and tracking features",
+        "Created dynamic web pages using Java Servlets and JSP",
+        "Applied software engineering best practices and clean architecture"
       ]
     }
   ];

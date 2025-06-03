@@ -1,40 +1,40 @@
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce solution with React & Node.js",
+      title: "SMASH Media Platform",
+      description: "UK-based platform connecting creators with entertainment industry decision-makers. Next.js, Node.js, MongoDB, Stripe integration.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-      alt: "E-commerce Platform"
+      alt: "SMASH Media Platform"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-      alt: "Task Management App"
+      title: "Hey Food Is Ready",
+      description: "UK-based platform connecting independent cooks with catering opportunities. Hapi.js, MongoDB, AWS SES/S3, HubSpot integration.",
+      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+      alt: "Hey Food Is Ready Platform"
     },
     {
-      title: "Analytics Dashboard",
-      description: "Real-time data visualization with interactive charts",
+      title: "ADMOTT Video Advertising",
+      description: "Smart video advertising platform using ML for optimal ad placement. Node.js, MongoDB, AWS, Python integration for content analysis.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-      alt: "Analytics Dashboard"
+      alt: "ADMOTT Video Platform"
     },
     {
-      title: "Mobile App",
-      description: "Cross-platform mobile application with React Native",
+      title: "QA-Automation Platform",
+      description: "End-to-end testing platform with OpenAI integration. Flask, AWS Lambda/EC2, Playwright, automated report generation.",
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+      alt: "QA Automation Platform"
+    },
+    {
+      title: "Hotel Reservation System",
+      description: "Full-featured booking management system built with Java, JSP, and Servlets. Udacity project during Phenom People tenure.",
+      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+      alt: "Hotel Reservation System"
+    },
+    {
+      title: "Full Stack Development Projects",
+      description: "Multiple web applications built during Newton School bootcamp. React.js, Node.js, Express.js, with focus on DSA and problem solving.",
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-      alt: "Mobile App"
-    },
-    {
-      title: "AI-Powered Tool",
-      description: "Machine learning application with Python & TensorFlow",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-      alt: "AI Tool"
-    },
-    {
-      title: "Blockchain Platform",
-      description: "Decentralized application with smart contracts",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-      alt: "Blockchain App"
+      alt: "Full Stack Projects"
     }
   ];
 
