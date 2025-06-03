@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -12,8 +13,17 @@ export default function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
+
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
+    closeNav(); // Close mobile menu when clicking nav link
     const target = document.querySelector(href);
     if (target) {
       target.scrollIntoView({
@@ -37,14 +47,16 @@ export default function Navigation() {
           Sachin Chourasiya
         </a>
         <button 
-          className="navbar-toggler" 
+          className="navbar-toggler border-0" 
           type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav"
+          onClick={toggleNav}
+          aria-controls="navbarNav"
+          aria-expanded={isNavOpen}
+          aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <i className={`fas ${isNavOpen ? 'fa-times' : 'fa-bars'} text-primary fs-4`}></i>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#home" onClick={(e) => handleNavClick(e, "#home")}>
